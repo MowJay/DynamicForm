@@ -3,7 +3,6 @@ export enum FieldTypes {
   TEXT = "text",
   RICH_TEXT = "richText",
   DATE = "date",
-  DATE_Range = "dateRange",
   SELECT = "select",
   RADIO = "radio",
   CHECKBOX = "checkbox",

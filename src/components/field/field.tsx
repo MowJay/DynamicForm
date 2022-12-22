@@ -8,7 +8,6 @@ import SelectField from "./selectField";
 import RadioField from "./radioField";
 import CheckBoxField from "./checkBoxField";
 import RichTextField from "./richTextField";
-import DateRangeField from "./dateRangeField";
 import FieldLabel from "./fieldLabel";
 
 export type FieldProps = {
@@ -69,16 +68,6 @@ const Field = ({
     case FieldTypes.DATE:
       result = (
         <DateField
-          field={field}
-          value={value}
-          handleChange={handleChange}
-          disabled={disabled}
-        />
-      );
-      break;
-    case FieldTypes.DATE_Range:
-      result = (
-        <DateRangeField
           field={field}
           value={value}
           handleChange={handleChange}

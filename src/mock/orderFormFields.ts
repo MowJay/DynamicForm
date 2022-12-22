@@ -48,10 +48,10 @@ export const orderFormFields = [
   },
   {
     id: "3",
-    name: "deliveryPeriod",
-    label: "Delivery Period",
-    type: FieldTypes.DATE_Range,
-    description: "Choose delivery period",
+    name: "deliveryDate",
+    label: "Delivery Date",
+    type: FieldTypes.DATE,
+    description: "Choose delivery date",
     required: true,
     displayAllowedOperations: [
       OperationModes.VIEW,
